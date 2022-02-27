@@ -56,7 +56,7 @@ const config = {
       navbar: {
         title: 'Tech Talk John Blog',
         items: [
-          {to: '/blog/tags', label: 'Blog Tags', position: 'left'},
+          {to: '/blog/tags', label: 'Topics', position: 'left'},
         ],
       },
       footer: {
