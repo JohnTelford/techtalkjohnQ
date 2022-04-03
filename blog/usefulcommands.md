@@ -27,6 +27,8 @@ tags: []
 ---
 ```
 
+<!--truncate-->
+
 ### Command Line Tools
 
 [Command Line Tools](https://docusaurus.io/docs/docusaurus-core)
