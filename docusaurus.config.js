@@ -54,9 +54,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Tech Talk John Blog',
+        title: 'techtalkjohn.com blog',
         items: [
           {to: '/blog/tags', label: 'Topics', position: 'left'},
+          {href: 'https://johntelford.com', label: 'johntelford.com', position: 'left'},
+
         ],
       },
       footer: {
