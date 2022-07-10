@@ -73,8 +73,24 @@ const config = {
       },
     }),
 
-  
-
+    plugins: [
+      [
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        {
+          // ... Your options.
+        indexDocs: true,
+        indexPages: true,
+        highlightSearchTermsOnTargetPage: true,
+          // `hashed` is recommended as long-term-cache of index file is possible.
+         hashed: true,
+          // For Docs using Chinese, The `language` is recommended to set to:
+          // ```
+          // language: ["en", "zh"],
+          // ```
+        },
+      ],
+    ],
+    
 };
 
 module.exports = config;
