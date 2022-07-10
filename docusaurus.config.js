@@ -54,6 +54,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        hideOnScroll: true,
         title: 'techtalkjohn.com blog',
         items: [
           {to: '/blog/tags', label: 'Topics', position: 'left'},
