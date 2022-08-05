@@ -40,7 +40,7 @@ const config = {
           tagsBasePath: '/blog/tags',
           archiveBasePath: '/archive',
           feedOptions: {
-            type: 'all',
+            type: 'rss',
             copyright: `Copyright © ${new Date().getFullYear()} JohnTelford.com LLC.`,
           }
         },
