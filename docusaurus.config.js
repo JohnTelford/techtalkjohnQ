@@ -41,7 +41,7 @@ const config = {
           archiveBasePath: '/archive',
           feedOptions: {
             type: 'rss',
-            copyright: `Copyright © ${new Date().getFullYear()} JohnTelford.com LLC.`,
+            copyright: `Copyright © ${new Date().getFullYear()} JohnTelford.com`,
           },
         },
 
