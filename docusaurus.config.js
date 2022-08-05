@@ -42,7 +42,7 @@ const config = {
           feedOptions: {
             type: 'rss',
             copyright: `Copyright © ${new Date().getFullYear()} JohnTelford.com LLC.`,
-          }
+          },
         },
 
       
