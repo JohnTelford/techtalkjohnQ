@@ -39,10 +39,10 @@ const config = {
           blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
           tagsBasePath: '/blog/tags',
           archiveBasePath: '/archive',
-          feedOptions: {
+        /**   feedOptions: {
             type: 'rss',
             copyright: `Copyright © ${new Date().getFullYear()} JohnTelford.com`,
-          },
+          }, */
         },
 
       
